@@ -23,6 +23,7 @@ const App = () => {
           <Route path='/product/review' Component={Reviews}/>
           <Route path='/product/pending-review' Component={PendingReviews}/>
           <Route path='/product/check/:productId' Component={CheckProductReview}/>
+          <Route path='/*' Component={Login}/>
       </Routes>
     </BrowserRouter>
     </>
